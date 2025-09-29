@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
 
 incidents = []
-incident_counter = 0    #exactly what it says, every incident found, increase
+#incident_counter = 0    #exactly what it says, every incident found, increase
 window = timedelta(minutes=10)
 for ip, times in per_ip_timestamps.items():
     times.sort()
